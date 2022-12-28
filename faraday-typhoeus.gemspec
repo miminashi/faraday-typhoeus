@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.files = Dir.glob('lib/**/*') + %w[README.md LICENSE.md]
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'faraday', '~> 2.0'
+  spec.add_dependency 'faraday', '~> 1.0'
   spec.add_dependency 'typhoeus', '~> 1.4'
 end
